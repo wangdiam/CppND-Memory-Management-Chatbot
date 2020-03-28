@@ -38,8 +38,6 @@ ChatBot::~ChatBot()
     if(_image != NULL) // Attention: wxWidgets used NULL and not nullptr
     {
         delete _image;
-        std::cout << "_image " << _image << std::endl; 
-
         _image = NULL;
 
     }
